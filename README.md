@@ -1,7 +1,7 @@
 # dsan-6600-final-project
 Neural Networks &amp; Deep Learning
 
-> Make sure to run ```bash git pull origin main``` before starting sessions
+> Make sure to run ```git pull origin main``` before starting sessions
 
 
 ## Overview
