@@ -1,5 +1,6 @@
 ./data/
 .venv/
 .DS_Store
-/data/raw_videos/
-
+data/raw_videos/*
+cleaned_frames/*
+cleaned_frames.zip
