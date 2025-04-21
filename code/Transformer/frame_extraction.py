@@ -3,7 +3,7 @@ import cv2
 from pathlib import Path
 import shutil
 
-VIDEO_DIR = "data/raw_videos"
+VIDEO_DIR = "../data/raw_videos"
 FRAME_OUTPUT_DIR = "./cleaned_frames"
 FPS = 10
 DURATION = 8
@@ -56,7 +56,4 @@ if __name__ == "__main__":
     for vp in video_paths:
         process_video_file(vp)
 
-
-    shutil.make_archive(FRAME_OUTPUT_DIR, 'zip', FRAME_OUTPUT_DIR)
-    print("✅ Done. Cleaned frames saved to:", FRAME_OUTPUT_DIR)
-    print("✅ Zip file created:", f"{FRAME_OUTPUT_DIR}.zip")
+    print("Done")

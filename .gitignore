@@ -4,3 +4,4 @@
 data/raw_videos/*
 cleaned_frames/*
 cleaned_frames.zip
+crash_predictor.pth
